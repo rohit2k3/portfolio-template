@@ -1,0 +1,132 @@
+:root{
+    --primary-color:rgb(22, 82, 48);
+    --primary-color:rgb(9, 188, 248);
+    --primary-color:#17cf91;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar{
+    font-size: large;
+    background-color:#17cf91;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+    padding-bottom: 10px;
+     
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navtitle{
+    border: solid 3px white;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    color: #01a770;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#home{
+    display: grid;
+    justify-items: center;
+}
+.profile-image{ 
+    margin: 10px;
+    border: solid 5px var(--primary-color);
+    border-radius: 80%;
+    height: 120px;
+}
+p{
+    text-align: center;
+}
+
+#skills{
+    font-size: large;
+    background-color:#17cf91;
+    padding-bottom: 10px;
+}
+.icon-box{
+    justify-content: space-evenly;
+    display: flex;
+}
+.icon{
+    margin: 8px;
+    padding: 8px;
+}
+h3{
+    color: white;
+    font-family: monospace;
+}
+
+#project{
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+#connect{
+    font-size: large;
+    background-color:#012217;
+    padding-bottom: 10px;
+    align-content: center;
+}
+/*Project css*/
+.project-box{
+    border: solid 4px green;
+    display: grid;
+    justify-items: center;
+    margin: 10px;
+    padding-top: 15px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.check{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-img{
+    height: 150px;
+    shape-image-threshold: var(--primary-color);
+    border: solid 2px white;
+
+}
+.project-title{
+    color: white;
+}
+.project-button{
+    border: solid 3px white;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 30px;
+    margin-bottom: 20px;
+}
+
+
+
